@@ -1,0 +1,31 @@
+/* import das fontes */
+ @font-face {
+    font-family: inter;
+    src: url(../assets/fonts/inter/Inter-VariableFont_slnt\,wght.ttf);
+ }
+
+ @font-face {
+    font-family: titilliun-web-black;
+    src: url(../assets/fonts/titilliun-web/TitilliumWeb-Black.ttf);
+ }
+
+ @font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/quicksand/Quicksand-VariableFont_wght.ttf);
+ }
+
+
+ /* reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+}
+
+/* header */
+
+header {
+    background-color: #1B1426;
+    color: white;
+}
