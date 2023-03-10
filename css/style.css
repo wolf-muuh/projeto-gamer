@@ -20,7 +20,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: boder-box;
+    box-sizing: border-box;
+}
+
+/* código genérico */
+.layout-grid {
+   width: 90%;
+   margin: 0 auto;
+   height: 100%;
 }
 
 /* header */
@@ -28,4 +35,24 @@
 header {
     background-color: #1B1426;
     color: white;
+    height: 60px;
+}
+
+header .header-top {
+   display: none;
+}
+
+header nav {
+   display: none;
+}
+
+header .menu-usuarios {
+   display: none;
+}
+
+header .contatos {
+   display: none;
+}
+header .midias-sociais {
+   display: none;
 }
