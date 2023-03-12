@@ -42,8 +42,20 @@ header .header-top {
    display: none;
 }
 
+header .header-botton {
+   height: 60px;
+}
+
 header nav {
-   display: none;
+   position: fixed;
+   top: 60px;
+   left: 0;
+   width: 80vw;
+   height: 100vh;
+   background-color: grey;
+
+   display: flex;
+   flex-direction: column;
 }
 
 header .menu-usuarios {
@@ -55,4 +67,27 @@ header .contatos {
 }
 header .midias-sociais {
    display: none;
+}
+
+
+header .logo {
+   height: 25px;
+   width: 86px;
+}
+
+header .menu-hamburguer {
+   height: 30px;
+   width: 30px;
+}
+
+
+header .menu-bolinha {
+   height: 10px;
+   width: 30px;
+}
+
+.alinhamento-between-center {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
 }
